@@ -6,9 +6,9 @@ permalink: /about/
 
 # About everyday df3ndr
 
-It all started in 2019 - Chris and Kooos met at a conference in Haarlem, the Netherlands. Since then, our friendship has grown as has our passion for sharing our experiences with the community.
+It all started in 2019 - Chris and Koos met at a conference in Haarlem, the Netherlands. Since then, our friendship has grown as has our passion for sharing our experiences with the community.
 
-Our goal for the everyday df3ndr podcast is to provide snackable, practical tips and tricks based on our real-world experience to help you secure your Microsoft cloud environments. 
+Our goal for the everyday df3ndr podcast is to provide snackable, practical tips and tricks based on our real-world experience to help you secure your Microsoft cloud environments.
 
 # Chris Goosen
 
