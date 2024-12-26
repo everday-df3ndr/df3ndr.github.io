@@ -3,6 +3,10 @@ layout: post
 title:  "01x00_boot_sequence.bat"
 date:   2024-12-02 10:28:00 +1100
 categories: episodes
+image:
+    path: assets/img/01x00.jpg
+    width: 1400
+    height: 1400
 ---
 Introducing the podcast and getting to know Chris & Koos, our backgrounds, interests etc. We also take a look ahead at our first episode coming soon!
 
