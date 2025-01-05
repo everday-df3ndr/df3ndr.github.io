@@ -14,7 +14,7 @@ image:
 * Koos has some thoughts on new capabilities within Defender XDR and some other Security-related updates.
 <br>
 <br>
-<iframe src="https://player.rss.com/df3ndr/1828176?theme=dark" style="width: 100%; height: 150px;" title="01x02_Get-Ignite24Recap.ps1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"><a href="https://rss.com/podcasts/df3ndr/1828176/">01x02_Get-Ignite24Recap.ps1 | RSS.com</a></iframe>
+<iframe src="https://player.rss.com/df3ndr/1828176?theme=dark" style="width: 100%; height: 155px;" title="01x02_Get-Ignite24Recap.ps1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"><a href="https://rss.com/podcasts/df3ndr/1828176/">01x02_Get-Ignite24Recap.ps1 | RSS.com</a></iframe>
 
 ### Ignite book of News
 
