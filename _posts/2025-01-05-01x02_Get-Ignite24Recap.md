@@ -14,7 +14,10 @@ image:
 * Koos has some thoughts on new capabilities within Defender XDR and some other Security-related updates.
 <br>
 <br>
-<iframe src="https://player.rss.com/df3ndr/1828176?theme=dark" style="width: 100%; height: 155px;" title="01x02_Get-Ignite24Recap.ps1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"><a href="https://rss.com/podcasts/df3ndr/1828176/">01x02_Get-Ignite24Recap.ps1 | RSS.com</a></iframe>
+<iframe src="https://player.rss.com/df3ndr/1828176?theme=dark" style="width: 100%; height: 150px;" title="01x02_Get-Ignite24Recap.ps1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"><a href="https://rss.com/podcasts/df3ndr/1828176/">01x02_Get-Ignite24Recap.ps1 | RSS.com</a></iframe>
+<br>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tpg4TjtCIdE?si=3tzPz8LeJv1IWh4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Ignite book of News
 
@@ -210,5 +213,3 @@ Speaking of Workbooks; [Sami](https://www.linkedin.com/in/sami-lamppu/) 🇫🇮
 
 
 Follow us on your favorite podcast platform or check us out on [YouTube](https://www.youtube.com/@CloudArchitects/podcasts)
-
-<br>
