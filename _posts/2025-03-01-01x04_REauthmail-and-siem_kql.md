@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "01x04_RE:authmail.eml-and-siem.kql"
-date: 2025-02-27 09:00:00 +0100
+date: 2025-03-01 09:00:00 +0100
 categories: episodes
 image:
     path: assets/img/01x04.jpg
