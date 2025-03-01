@@ -17,7 +17,7 @@ In this episode...
 <iframe src="https://player.rss.com/df3ndr/1916672?theme=dark" style="width: 100%; height: 150px;" title="01x04_RE:authmail.eml-and-siem.kql" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"><a href="https://rss.com/podcasts/df3ndr/1916672/">01x04_RE:authmail.eml-and-siem.kql | RSS.com</a></iframe>
 <br>
 <br>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/rEqI7uyV91Y?si=mGvwIIM4cS77UALW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rEqI7uyV91Y?si=pfyt-UBDuNdOWxrx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## E-mail Security - Part II
 
