@@ -14,10 +14,10 @@ In this episode...
 * Koos recently did some talks about SIEM migrations to Sentinel and keeping things as cost-efficient as possible. He also believes a company shouldn't focus solely on Microsoft Sentinel, and should consider looking into alternatives alongside it like Azure Data Explorer. And why are companies so focussed on collecting all those logs in a "legacy" matter?
 <br>
 <br>
-<iframe src="https://rss.com/podcasts/df3ndr/1916672?theme=dark" style="width: 100%; height: 150px;" title="01x04_RE:authmail.eml-and-siem.kql" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"><a href="https://rss.com/podcasts/df3ndr/1916672">01x04_RE:authmail.eml-and-siem.kql | RSS.com</a></iframe>
+<iframe src="https://player.rss.com/df3ndr/1916672?theme=dark" style="width: 100%; height: 150px;" title="01x04_RE:authmail.eml-and-siem.kql" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"><a href="https://rss.com/podcasts/df3ndr/1916672/">01x04_RE:authmail.eml-and-siem.kql | RSS.com</a></iframe>
 <br>
 <br>
-<iframe width="560" height="315" src="https://youtu.be/rEqI7uyV91Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/rEqI7uyV91Y?si=9r97taDrbEowbJBm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## E-mail Security - Part II
 
