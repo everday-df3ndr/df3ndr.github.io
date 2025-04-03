@@ -68,7 +68,7 @@ Booting high on community energy! In this special in-person episode, recorded on
 
 ### Device Offboarding Manager
 
-Microsoft MVP [Ugo Koch](https://github.com/ugokoch) has created a great PowerShell GUI tool for efficiently managing and offboarding devices from Microsoft Intune, Autopilot, and Entra ID, featuring bulk operations and real-time analytics for streamlined device lifecycle management. At it's core, the tool features:
+Microsoft MVP [Ugur Koc](https://www.linkedin.com/in/ugurkocde/) has created a great PowerShell GUI tool for efficiently managing and offboarding devices from Microsoft Intune, Autopilot, and Entra ID, featuring bulk operations and real-time analytics for streamlined device lifecycle management. At it's core, the tool features:
 
 * Multi-Service Integration: Manage devices across Intune, Autopilot, and Entra ID
 * Bulk Operations: Support for bulk device imports and operations
