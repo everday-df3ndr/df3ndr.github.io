@@ -1,5 +1,3 @@
-# 🎙️ Episode - 01x05_DEVICEHIGH=MVPSUMMIT.SYS
-
 ---
 layout: post
 title: "01x05_DEVICEHIGH=MVPSUMMIT.SYS"
