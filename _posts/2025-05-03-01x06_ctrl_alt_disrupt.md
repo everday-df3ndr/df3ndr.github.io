@@ -9,6 +9,12 @@ image:
     height: 1400
 ---
 In this episode we look at one of Defender XDRs most exiting features at the moment: Attack Disruption! Why it is so exiting and how you can start using it today?
+<br>
+<br>
+<iframe src="https://player.rss.com/df3ndr/2013479?theme=dark" width="100%" height="154px" title="01x06_ctrl_alt_disrupt.bat" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/df3ndr/2013479/">01x06_ctrl_alt_disrupt.bat | RSS.com</a></iframe>
+<br>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZNxGzk7mXR4?si=rVzUU9ivcr6MMP5l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Defender XDR Attack Disruption
 
@@ -54,18 +60,18 @@ According to Microsoft it does this "in real-time" ("at machine speed" ;-) ) and
 
 They're not only using signals from multiple different products (Endpoint, Office, Cloud Apps....) but also using these product to respond/contain the attack.
 
-![disrupting_attacks](assets/img/s01e06/s01e06_attack_disruption.png)
+![disrupting_attacks](/assets/img/s01e06/s01e06_attack_disruption.png)
 
 For example MDE is used to contain the device and prevent lateral movement, while EntraID is used to contain the user AND MDI is used to contains the on-prem users. Also to prevent having to rely on a sync. The fast to disrupt the attack the better
 
 A real-world example of Business e-mail compromise (BEC) and adversary in the middle attack (AitM)
 
-![bec_aitm_example_1](assets/img/s01e06/s01e06_attack_disruption_bec_aitm_1.png)
+![bec_aitm_example_1](/assets/img/s01e06/s01e06_attack_disruption_bec_aitm_1.png)
 
 Not only was attack disruption able to disable a compromised account.
 It was able to detect the AitM attack as well and invalidate the token of that compromised account.
 
-![bec_aitm_example_1](assets/img/s01e06/s01e06_attack_disruption_bec_aitm_2.png)
+![bec_aitm_example_1](/assets/img/s01e06/s01e06_attack_disruption_bec_aitm_2.png)
 
 ### Customer Grading
 
@@ -89,7 +95,7 @@ Attack Disruption is enabled by default. But there are certain configurations yo
 
 * Attack disruption relies heavily on Defender for Endpoint's discovery and contain capabilities. Go to Settings --> Device discovery and make sure that Discovery mode is set to "Standard" (not basic) for "all devices".
 
-![DeviceDiscovery](assets/img/s01e06/s01e06_attack_disruption_discovery.png)
+![DeviceDiscovery](/assets/img/s01e06/s01e06_attack_disruption_discovery.png)
 
 You can always check if there are any discovered devices in your environment:
 
@@ -134,7 +140,7 @@ Here you have two options:
 * Automatically use sensor's `local system` account
 * Manually configure and use a Group Managed Service Account (gMSA)
 
-![MDI_ActionAccounts](assets/img/s01e06/s01e06_attack_disruption_identity_actionaccounts.png)
+![MDI_ActionAccounts](/assets/img/s01e06/s01e06_attack_disruption_identity_actionaccounts.png)
 
 If you have chosen the latter, make sure that account still exists!
 
