@@ -10,7 +10,6 @@ image:
 ---
 In this episode we look at one of Defender XDRs most exiting features at the moment: Attack Disruption! Why it is so exiting and how you can start using it today?
 <br>
-<br>
 <iframe src="https://player.rss.com/df3ndr/2013479?theme=dark" width="100%" height="154px" title="01x06_ctrl_alt_disrupt.bat" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/df3ndr/2013479/">01x06_ctrl_alt_disrupt.bat | RSS.com</a></iframe>
 <br>
 <br>
@@ -90,6 +89,7 @@ According to Microsoft they're disrupting 40.000 incidents a month.
 ### How to use
 
 Attack Disruption is enabled by default. But there are certain configurations you should look into for optimal usage.
+<br>
 
 #### Defender for Endpoint
 
@@ -139,6 +139,7 @@ Here you have two options:
 
 * Automatically use sensor's `local system` account
 * Manually configure and use a Group Managed Service Account (gMSA)
+<br>
 
 <img src="/assets/img/s01e06/s01e06_attack_disruption_identity_actionaccounts.png" alt="MDI_ActionAccounts" width="100%">
 
