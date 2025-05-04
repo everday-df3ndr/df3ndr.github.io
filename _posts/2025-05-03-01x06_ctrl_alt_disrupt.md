@@ -60,18 +60,18 @@ According to Microsoft it does this "in real-time" ("at machine speed" ;-) ) and
 
 They're not only using signals from multiple different products (Endpoint, Office, Cloud Apps....) but also using these product to respond/contain the attack.
 
-![disrupting_attacks](/assets/img/s01e06/s01e06_attack_disruption.png)
+<img src="/assets/img/s01e06/s01e06_attack_disruption.png" alt="disrupting_attacks" width="100%">
 
 For example MDE is used to contain the device and prevent lateral movement, while EntraID is used to contain the user AND MDI is used to contains the on-prem users. Also to prevent having to rely on a sync. The fast to disrupt the attack the better
 
 A real-world example of Business e-mail compromise (BEC) and adversary in the middle attack (AitM)
 
-![bec_aitm_example_1](/assets/img/s01e06/s01e06_attack_disruption_bec_aitm_1.png)
+<img src="/assets/img/s01e06/s01e06_attack_disruption_bec_aitm_1.png" alt="bec_aitm_example_1" width="100%">
 
 Not only was attack disruption able to disable a compromised account.
 It was able to detect the AitM attack as well and invalidate the token of that compromised account.
 
-![bec_aitm_example_1](/assets/img/s01e06/s01e06_attack_disruption_bec_aitm_2.png)
+<img src="/assets/img/s01e06/s01e06_attack_disruption_bec_aitm_2.png" alt="bec_aitm_example_1" width="100%">
 
 ### Customer Grading
 
@@ -95,7 +95,7 @@ Attack Disruption is enabled by default. But there are certain configurations yo
 
 * Attack disruption relies heavily on Defender for Endpoint's discovery and contain capabilities. Go to Settings --> Device discovery and make sure that Discovery mode is set to "Standard" (not basic) for "all devices".
 
-![DeviceDiscovery](/assets/img/s01e06/s01e06_attack_disruption_discovery.png)
+<img src="/assets/img/s01e06/s01e06_attack_disruption_discovery.png" alt="DeviceDiscovery" width="100%">
 
 You can always check if there are any discovered devices in your environment:
 
@@ -140,7 +140,7 @@ Here you have two options:
 * Automatically use sensor's `local system` account
 * Manually configure and use a Group Managed Service Account (gMSA)
 
-![MDI_ActionAccounts](/assets/img/s01e06/s01e06_attack_disruption_identity_actionaccounts.png)
+<img src="/assets/img/s01e06/s01e06_attack_disruption_identity_actionaccounts.png" alt="MDI_ActionAccounts" width="100%">
 
 If you have chosen the latter, make sure that account still exists!
 
