@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "01x06_ctrl_alt_disrupt.bat"
-date: 2025-04-03 17:00:00 +0200
+date: 2025-05-03 17:00:00 +0200
 categories: episodes
 image:
     path: assets/img/01x06.jpg
