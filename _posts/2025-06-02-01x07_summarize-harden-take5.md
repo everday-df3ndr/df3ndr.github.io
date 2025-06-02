@@ -10,7 +10,7 @@ image:
 ---
 In this episode Chris shares 5 things you should configure in Microsoft 365 to make your tenant more secure and Koos introduces "Summary Rules" in Microsoft Sentinel. What are "Summary Rules"? And what new opportunities might bring it to your logging strategies?
 <br>
-
+<iframe src="https://player.rss.com/df3ndr/2055091?theme=dark" width="100%" height="154px" title="01x07 | summarize harden(Tenant) | take 5" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/df3ndr/2055091/">01x07 | summarize harden(Tenant) | take 5 | RSS.com</a></iframe>
 <br>
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/05WUnTCZJ2s?si=_DDnfe3JmL_Se9IG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
