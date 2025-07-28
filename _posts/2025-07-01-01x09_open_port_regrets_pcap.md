@@ -33,7 +33,7 @@ Microsoft Global Secure Access (GSA) is a modern network access solution built o
   * Microsoft traffic
   * Private Access
   * Internet Access
-
+<br>
 <img src="/assets/img/s01e09/01x09-GSA-Profiles.png" alt="GSA Profiles" width="100%">
 
 The Microsoft Traffic Profile is a specialized traffic forwarding configuration within GSA that focuses on securing and optimizing access to Microsoft 365 services like Exchange Online, SharePoint, OneDrive, Teams, and Office Online. It is included with Microsoft Entra ID P1 or P2, which is part of Microsoft 365 Business Premium and E3/E5 plans—no extra license needed beyond that
@@ -54,13 +54,14 @@ Microsoft Entra Private Access is a modern, identity-centric alternative to trad
 
 #### Entra App Proxy vs. Private Access
 
-| **Category**             | **Entra App Proxy**                                       | **Entra Private Access**                                           |
+| **Category**             | **Entra App Proxy**                                       | **Entra Private Access**                                            |
 |--------------------------|-----------------------------------------------------------|---------------------------------------------------------------------|
 | **Primary Purpose**      | Securely publish internal **web apps** to external users  | Provide **Zero Trust access** to **any private resource**           |
 | **Protocol Support**     | **HTTP/HTTPS only**                                       | **All TCP/UDP protocols** (e.g. RDP, SMB, SSH, SQL)                 |
 | **Ideal Scenarios**      | Legacy web apps, B2B partner access, browser-based usage  | VPN replacement, secure access to hybrid/multicloud private apps    |
 | **Authentication Method**| Entra ID via browser SSO (SAML, KCD, headers)             | Entra ID authentication via **Global Secure Access client**         |
 
+<br>
 **Currently in Preview - Microsoft Entra Private Access for domain controllers** - It allows you to enforce Conditional Access, including MFA, for apps and services that authenticate via Kerberos, without exposing your domain controllers to broad network access.
 
 * Private Access Sensor: Installed on domain controllers to intercept and evaluate Kerberos requests
