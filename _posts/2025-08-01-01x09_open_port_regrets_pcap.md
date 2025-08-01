@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "01x09 | open_port_regrets.pcap"
-date: 2025-08-01 06:00:00 +2000
+date: 2025-08-01 08:00:00 +1000
 categories: episodes
 image:
     path: assets/img/01x09.jpg
