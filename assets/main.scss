@@ -6,8 +6,8 @@
 @import "dark";
 @import "base";
 
-@include theme-light;
+@include theme;
 
 @media (prefers-color-scheme: dark) {
-  @include theme-dark;
+  @include theme;
 }
