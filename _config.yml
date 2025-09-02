@@ -41,6 +41,7 @@ remote_theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
