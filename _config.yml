@@ -32,7 +32,7 @@ header_pages:
 
 style: dark # dark (default), light or hacker
 listen_for_clients_preferred_style: false # false (default) or true
-footer: 'follow us on <a href="https://bsky.app/profile/df3ndr.io">Bluesky</a> or <a href="https://cgoosen.me/going/8?https://infosec.exchange/@df3ndr">Mastodon</a>'
+footer: 'follow us on <a href=https://http://linkedin.com/company/everyday-df3ndr">LinkedIn</a>, <a href="https://bsky.app/profile/df3ndr.io">Bluesky</a> or <a href="https://cgoosen.me/going/8?https://infosec.exchange/@df3ndr">Mastodon</a>'
 google_analytics: G-QH118866XT
 
 # Build settings
