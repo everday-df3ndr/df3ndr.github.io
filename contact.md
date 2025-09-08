@@ -7,7 +7,7 @@ permalink: /contact
 # Want to get in touch?
 <br/>
 <div align="center">
-  <a href="https://http://linkedin.com/company/everyday-df3ndr" style="text-decoration: none; margin-right: 20px;">
+  <a href="https://linkedin.com/company/everyday-df3ndr" style="text-decoration: none; margin-right: 20px;">
     <i class="fa-brands fa-linkedin fa-2xl" style="color: #da2c35;"></i>
   </a>
   <a href="https://bsky.app/profile/df3ndr.io" style="text-decoration: none; margin-right: 20px;">
