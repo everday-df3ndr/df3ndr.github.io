@@ -93,7 +93,7 @@ Whenever I'm at a party and explain to people what I do for a living, most peopl
 * **Security awareness that resonates** – Customize your phishing exercises and tailor them to your organization. I think not enough companies take advantage of this.
 * **Realistic scenarios** – Simulate believable attacks and don't stick to e-mails only. Drop some phishing USB drives on the parking lot, have mystery guests visit, install rogue hardware in that one meeting room with all those exposed ports alongside the wall.
 * **Hands-on demos** – Show users a real O.MG cable or Rubber Ducky and explain what they do. If I wasn't aware of this cable, how can I expect my colleague from HR or Marketing to know about it?!
-* ***Instruct about Public WiFi** - Explain the risks and teach them how to remove those stored networks from when they visited that hotel 5 years ago. DEFCON also led me to learn that this is possible on my iPhone ;-)  
+* **Instruct about Public WiFi** - Explain the risks and teach them how to remove those stored networks from when they visited that hotel 5 years ago. DEFCON also led me to learn that this is possible on my iPhone ;-)  
 
 For those unaware; a rogue access point can passively listen for “probe requests” that your device sends out when looking to reconnect to known networks. These probes contain the SSIDs of networks your device has previously connected to. By mimicking a SSID your devices recognizes it tricks your device into auto-connecting (without any user interaction) and enables for various man-in-the-middle attacks.
 
@@ -138,8 +138,9 @@ EntraOps was made by German Security MVP Thomas Naunheim and he together with Fa
 
 SentinelEnrichment caught my eye first because this PowerShell module will make your life creating/updating Microsoft Sentinel Watchlists a lot easier!
 
-Supports large MicrosoftSentinel Watchlist uploads without requiring blob storage - by using file batching.
-⚙️ Improved Deletion Handling, enhanced asynchronous operations make Watchlist cleanup smoother and more reliable.
+- Supports large MicrosoftSentinel Watchlist uploads without requiring blob storage - by using file batching.
+- Improved Deletion Handling, enhanced asynchronous operations make Watchlist cleanup smoother and more reliable.
+
 [Download the module from PSGallery](https://www.powershellgallery.com/packages/SentinelEnrichment/0.2.0)
 
 Only then I've noticed that Thomas incorporated SentinelEnrichment into EntraOps:
