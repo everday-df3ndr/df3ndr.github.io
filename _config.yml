@@ -7,8 +7,8 @@ paginate: 6
 language: 'en-us'
 
 # Website info
-name:
-description:
+name: 'Everyday Defender'
+description: 'Microsoft security tips and tricks on your favorite Podcast platform'
 
 short_url: 'df3ndr.io'
 google_analytics: G-QH118866XT
