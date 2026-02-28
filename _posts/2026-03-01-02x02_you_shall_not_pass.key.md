@@ -74,10 +74,10 @@ Other than *Device-bound Passkeys* these can be stored in a centralized location
 Manage different Passkey configurations for different user groups.
 
 <img src="/assets/images/02x02/passkey-profiles.png" alt="passkey profiles" width="100%">
-<sub><sup>*Example of Passkey Profiles*</sub></sup>
+<sup>*Example of Passkey Profiles*</sup>
 
 <img src="/assets/images/02x02/syncable-passkeys.png" alt="syncable passkeys" width="100%">
-<sub><sup>*Example of syncable Passkey in 1Password*</sub></sup>
+<sup>*Example of syncable Passkey in 1Password*</sup>
 
 ### Attestation
 
@@ -108,7 +108,7 @@ The workaround is to require them to register a passkey in their own tenant by e
 Once you configure *"Cross-tenant access settings"* for those partner tenants, you can trust the inbound MFA claim, because you know it aligns with your highest authentication strength thanks to your CA policies.
 
 <img src="/assets/images/02x02/cross-tenant-mfa-trust.png" alt="cross-tenant mfa trust" width="100%">
-<sub><sup>*Example trusting MFA claims from partner tenants*</sub></sup>
+<sup>*Example trusting MFA claims from partner tenants*</sup>
 
 ### Links
 
