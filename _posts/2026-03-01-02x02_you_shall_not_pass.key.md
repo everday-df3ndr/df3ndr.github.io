@@ -24,7 +24,7 @@ In this episode, Chris take a look at PowerShell modules and how managing M365 a
 
 A long time ago in a galaxy far, far away... back in 2012, I put together a basic script with a GUI to simplify connecting to Exchange Online via remote PowerShell. I had never intended to make the script publicly available and it was just something I used myself. After a couple years I realized that it had been widely shared so I decided to clean it up and publish it on the TechNet gallery. Connect-EXO was born and over the years it matured into what is called Connect-365 today.
 
-![Connect-365](./img/02x02/connect365.png)
+<img src="/assets/images/02x02/connect365.png" alt="Connect-365" width="100%">
 
 In 2020 the Microsoft Graph PowerShell SDK (providing *-Mg* cmdlets) appears publicly and slowly Microsoft started to moving away from the older modules towards Graph. Microsoft officially deprecated the MSOnline, AzureAD, and AzureADPreview PowerShell modules in March of 2024 - these modules entered deprecated status meaning no new features and only critical fixes available. These modules no longer work today. Personally I think adoption of Microsoft.Graph was slow, mostly due to complexity, but also because of feature parity and the heavy investment many folks had in scripts and automation that used the older MSOnline and AzureAD modules.
 
@@ -73,10 +73,10 @@ Other than *Device-bound Passkeys* these can be stored in a centralized location
 * We now have Passkey Profiles (preview)  
 Manage different Passkey configurations for different user groups.
 
-![passkey profiles](./img/02x02/passkey-profiles.png)
+<img src="/assets/images/02x02/passkey-profiles.png" alt="passkey profiles" width="100%">
 <sub><sup>*Example of Passkey Profiles*</sub></sup>
 
-![syncable passkeys](./img/02x02/syncable-passkeys.png)
+<img src="/assets/images/02x02/syncable-passkeys.png" alt="syncable passkeys" width="100%">
 <sub><sup>*Example of syncable Passkey in 1Password*</sub></sup>
 
 ### Attestation
@@ -107,7 +107,7 @@ The workaround is to require them to register a passkey in their own tenant by e
 
 Once you configure *"Cross-tenant access settings"* for those partner tenants, you can trust the inbound MFA claim, because you know it aligns with your highest authentication strength thanks to your CA policies.
 
-![cross-tenant mfa trust](./img/02x02/cross-tenant-mfa-trust.png)
+<img src="/assets/images/02x02/cross-tenant-mfa-trust.png" alt="cross-tenant mfa trust" width="100%">
 <sub><sup>*Example trusting MFA claims from partner tenants*</sub></sup>
 
 ### Links
