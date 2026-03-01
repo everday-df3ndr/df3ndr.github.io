@@ -4,7 +4,7 @@ title: "01x06_ctrl_alt_disrupt.bat"
 date: 2025-05-03 17:00:00 +0200
 categories: episodes
 image:
-    path: assets/img/01x06.jpg
+    path: assets/images/01x06.jpg
     width: 1400
     height: 1400
 cover: 'assets/images/cover/cover-01x06.jpg'

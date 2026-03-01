@@ -4,7 +4,7 @@ title: "01x02_Get-Ignite24Recap.ps1"
 date: 2025-01-05 18:00:00 +1100
 categories: episodes
 image:
-    path: assets/img/01x02.jpg
+    path: assets/images/01x02.jpg
     width: 1400
     height: 1400
 cover: 'assets/images/cover/cover-01x02.jpg'

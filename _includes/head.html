@@ -7,13 +7,27 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
+    {% if page.image.path %}
     <meta property="og:image" content="{{ page.image.path | absolute_url }}" />
+    {% if page.image.width %}<meta property="og:image:width" content="{{ page.image.width }}" />{% endif %}
+    {% if page.image.height %}<meta property="og:image:height" content="{{ page.image.height }}" />{% endif %}
+    {% elsif page.cover %}
+    <meta property="og:image" content="{{ page.cover | absolute_url }}" />
+    {% else %}
+    <meta property="og:image" content="{{ 'assets/images/cover.jpg' | absolute_url }}" />
+    {% endif %}
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
+    {% if page.image.path %}
     <meta name="twitter:image:src" content="{{ page.image.path | absolute_url }}" />
+    {% elsif page.cover %}
+    <meta name="twitter:image:src" content="{{ page.cover | absolute_url }}" />
+    {% else %}
+    <meta name="twitter:image:src" content="{{ 'assets/images/cover.jpg' | absolute_url }}" />
+    {% endif %}
     
     <script src="https://kit.fontawesome.com/1f0f1c345a.js" crossorigin="anonymous"></script>
 

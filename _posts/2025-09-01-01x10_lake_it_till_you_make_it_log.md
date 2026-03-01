@@ -4,7 +4,7 @@ title: "01x10_lake_it_till_you_make_it.log"
 date: 2025-09-01 10:00:00 +1000
 categories: episodes
 image:
-    path: assets/img/01x10.jpg
+    path: assets/images/01x10.jpg
     width: 1400
     height: 1400
 cover: 'assets/images/cover/cover-01x10.jpg'

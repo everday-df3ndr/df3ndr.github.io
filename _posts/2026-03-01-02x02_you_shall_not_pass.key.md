@@ -3,6 +3,10 @@ layout: post
 title:  "02x02_you_shall_not_pass.key"
 date:   2026-03-01 06:00:00 +0100
 categories: episodes
+image:
+    path: assets/images/02x02.jpg
+    width: 1500
+    height: 1500
 cover: 'assets/images/cover/cover-02x02.jpg'
 navigation: True
 subclass: 'post'

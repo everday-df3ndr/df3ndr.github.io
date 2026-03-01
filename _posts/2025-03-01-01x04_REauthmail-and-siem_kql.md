@@ -4,7 +4,7 @@ title: "01x04_RE:authmail.eml-and-siem.kql"
 date: 2025-03-01 01:00:00 +0100
 categories: episodes
 image:
-    path: assets/img/01x04.jpg
+    path: assets/images/01x04.jpg
     width: 1400
     height: 1400
 cover: 'assets/images/cover/cover-01x04.jpg'
