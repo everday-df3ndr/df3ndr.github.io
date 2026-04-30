@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "02x04_terminal_velocity.tui"
-date:   2026-05-01 06:00:00 +0100
+date:   2026-04-30 06:00:00 +0100
 categories: episodes
 image:
     path: assets/images/02x04.jpg
@@ -12,13 +12,48 @@ navigation: True
 subclass: 'post'
 logo:
 ---
-In this episode, Koos has become a full-time Claude (Code) user over the past months and wants to share why he's blown away. A few real-world stories where an AI agent saved the day. Or actually MULTIPLE days worth of work. ;). There's been a lot of talk lately about different models and multiple AI services seem to have been offering multiple different models to pick from. And even then; the same model can feel completely different depending on which "harness" it runs inside. Koos will explain what that is and why the right harness for the work you do matters more than the model sitting underneath it.
+In this episode Chris covers some common Intune deployment mistakes he's come across while working with various customer environments.
+And Koos has become a full-time Claude (Code) user over the past months and wants to share why he's blown away. A few real-world stories where an AI agent saved the day. Or actually MULTIPLE days worth of work. ;). There's been a lot of talk lately about different models and multiple AI services seem to have been offering multiple different models to pick from. And even then; the same model can feel completely different depending on which "harness" it runs inside. Koos will explain what that is and why the right harness for the work you do matters more than the model sitting underneath it.
 
-<iframe src="https://player.rss.com/df3ndr/RSS_ID_PLACEHOLDER?theme=dark&v=2" width="100%" height="202px" title="02x04_terminal_velocity.tui" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/df3ndr/RSS_ID_PLACEHOLDER">02x04_terminal_velocity.tui | RSS.com</a></iframe>
+<iframe src="https://player.rss.com/df3ndr/RSS_ID_PLACEHOLDER?theme=dark&v=2" width="100%" height="202px" title="02x04-terminal_velocity.tui" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/df3ndr/RSS_ID_PLACEHOLDER">02x04_terminal_velocity.tui | RSS.com</a></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_ID_PLACEHOLDER" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HgROpogWCyc?si=IqRKZ3aVwAqA4j2x" title="02x04-terminal_velocity.tui" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Topic Chris
+## Intune Done Wrong
+
+Intune is powerful, but it's not plug-and-play. I've noticed too many times that orgs set up a few policies, enrol some devices, and assume they're done. The result is a tenant that looks healthy but isn't actually enforcing anything or there a massive holes in what is being enforced. A tenant reporting 100% device compliance can either mean strong security or a silent failure in policy setup. Here's my list of common mistakes I see organisation's make, if you pay attention to these you'll have a more efficient Intune deployment.
+
+### Mistake 1: Leaving "No Policy Assigned" set to Compliant
+
+This is the big one. Intune has a tenant-wide setting that determines how it treats devices with no compliance policy assigned, and it defaults to "Compliant." This means any device that hasn't been targeted by a policy automatically gets a green tick with no checks or enforcement. Find the setting here: Intune admin center --> Endpoint security --> Device compliance --> Compliance policy settings
+
+![Intune Settings](./img/02x04/intune.png)
+
+Microsoft recommends setting this to "Not compliant" so that only devices with an explicit, passing compliance policy can access resources. Use report-only mode in Conditional Access first to observe which users and devices would be affected before applying this setting. This setting pairs with the compliance status validity period (defaults to thirty days), which means if devices don't check in within that window, they can appear non-compliant due to inactivity.
+
+### Mistake 2: Open Enrolment
+
+Out of the box, Intune provides a default enrolment policy that applies to all user enrolments until a higher-priority policy is assigned. If you don't tighten those defaults, any device can enrol including personal phones, old unsupported hardware, etc.
+
+You should be setting platform restrictions to control what can enrol (block unsupported OS versions, block personal devices, etc), and device limit restrictions to cap how many devices a single user can register. Without restrictions, you end up managing a device estate you never intended to, and compliance becomes a nightmare because you're writing policies for hardware you didn't plan for.
+
+### Mistake 3: Not Using Assignment Filters
+
+Assignment filters let you assign policies based on rules like OS version, manufacturer, device ownership type, or enrolment profile to narrow the scope so the right policies hit the right devices automatically. Without assignment filters, teams end up creating dozens of Entra ID groups to approximate the same targeting, which gets messy fast.
+
+You can use assignment filters to separate corporate vs personal, target specific OS SKUs, or scope policies to specific hardware models. Say you've got a compliance policy that requires a complex PIN and biometric unlock, and you've assigned it to "All Devices." That works great for your users' laptops, but then you deploy a couple of Teams Rooms devices or shared kiosk machines and they immediately go non-compliant because they can't satisfy those requirements.
+
+Teams Rooms devices typically register with a manufacturer like "Lenovo" or "Yealink" and a model string that identifies them. A clean approach is filtering on the enrolment profile or device model:
+
+```kusto
+(device.deviceModel -contains "Teams Room") or (device.deviceModel -contains "RoomBar") or (device.manufacturer -eq "Yealink")
+```
+
+### Mistake 4: Skipping Conditional Access
+
+I've seen orgs skip Conditional Access during deployment because it feels "too complicated," Compliance policies are powerful, but often nobody does anything with the data. A non-compliant device should not be allowed anywhere near your environment. Compliance on its own is just reporting, it doesn't actually block anything. Compliance status only blocks access if you link Intune policies to Conditional Access in Entra ID.
+
+The advice: start in report-only mode and you'll see what would happen before you enforce it. There's no excuse to leave the doors wide open when you can safely test the impact first.
 
 ## Why Koos is now a full-time Claude (Code) user
 
@@ -140,7 +175,7 @@ Chris introduced me to the work "TUI" last week. A Terminal User Interface
 There's another real cultural and technical shift happening in 2025-2026. Tools like Claude Code, GitHub Copilot CLI and Cursor's new cursor-agent CLI have quietly become some devs' primary interface for AI work. And it's not just AI. Look at the wider terminal renaissance, terminals have never been more alive!
 And I think it's great! It feels like the quickest way possible to get things done. Hence the title of this episode. 😎
 
-<img src="/assets/images/02x04/terminal-velocity.gif" alt="image info" width="100%">
+![image info](./img/02x04/terminal-velocity.gif)
 
 People who know me I love myself a nice script with some ASCII art. I even [wrote some sort of love letter on Medium a while ago over the holidays](https://koosg.medium.com/holiday-special-from-ansi-art-to-nerd-fonts-2a66acc6e868). A trip down memory lane for everybody who was using a computer in the 90's and 00's. 😎
 
@@ -221,4 +256,21 @@ Pricing might seem high at first. But try it and see what it might bring you. A 
 
 ## Community Project
 
-_(placeholder, to be filled in during recording)_
+[InTUI - Intune Terminal User Interface](https://github.com/jorgeasaurus/InTUI) by Jorge Suarez
+
+A PowerShell terminal UI for managing Microsoft Intune resources via Microsoft Graph API.
+
+![InTUI](./img/02x04/intui.png)
+
+Features a Interactive TUI-driven connection flow with cloud environment selection, auth method choice (browser, device code, service principal), and saved tenant profiles a dashboard with summary panels with device, app, user, and group counts plus compliance statistics, with live auto-refresh mode and many, many more.
+
+It also includes a number of tools:
+* Global Search - Search across devices, apps, users, and groups simultaneously
+* Command Palette - Quick navigation to any view via fuzzy search
+* Keyboard Shortcuts - Vim-style navigation with shortcut bar and help overlay
+* Bookmarks - Save and recall frequent navigation paths
+* Navigation History - Recently visited views for quick re-navigation
+* Script Recording - Record Graph API actions and export as replayable PowerShell scripts
+* Caching - Local response caching with configurable TTL for faster navigation
+* Assignment Conflicts - Detect groups targeted by multiple policies with conflicting settings
+* Error Code Lookup - Maps common Intune error codes to descriptions and remediation steps
