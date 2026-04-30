@@ -27,7 +27,7 @@ Intune is powerful, but it's not plug-and-play. I've noticed too many times that
 
 This is the big one. Intune has a tenant-wide setting that determines how it treats devices with no compliance policy assigned, and it defaults to "Compliant." This means any device that hasn't been targeted by a policy automatically gets a green tick with no checks or enforcement. Find the setting here: Intune admin center --> Endpoint security --> Device compliance --> Compliance policy settings
 
-![Intune Settings](./img/02x04/intune.png)
+<img src="/assets/images/02x04/intune.png" alt="Intune" width="100%">
 
 Microsoft recommends setting this to "Not compliant" so that only devices with an explicit, passing compliance policy can access resources. Use report-only mode in Conditional Access first to observe which users and devices would be affected before applying this setting. This setting pairs with the compliance status validity period (defaults to thirty days), which means if devices don't check in within that window, they can appear non-compliant due to inactivity.
 
@@ -174,8 +174,7 @@ Chris introduced me to the work "TUI" last week. A Terminal User Interface
 
 There's another real cultural and technical shift happening in 2025-2026. Tools like Claude Code, GitHub Copilot CLI and Cursor's new cursor-agent CLI have quietly become some devs' primary interface for AI work. And it's not just AI. Look at the wider terminal renaissance, terminals have never been more alive!
 And I think it's great! It feels like the quickest way possible to get things done. Hence the title of this episode. 😎
-
-![image info](./img/02x04/terminal-velocity.gif)
+<img src="/assets/images/02x04/terminal-velocity.gif" alt="Typing with 'Terminal Velocity'" width="100%">
 
 People who know me I love myself a nice script with some ASCII art. I even [wrote some sort of love letter on Medium a while ago over the holidays](https://koosg.medium.com/holiday-special-from-ansi-art-to-nerd-fonts-2a66acc6e868). A trip down memory lane for everybody who was using a computer in the 90's and 00's. 😎
 
@@ -260,7 +259,7 @@ Pricing might seem high at first. But try it and see what it might bring you. A 
 
 A PowerShell terminal UI for managing Microsoft Intune resources via Microsoft Graph API.
 
-![InTUI](./img/02x04/intui.png)
+<img src="/assets/images/02x04/intui.png" alt="INTUI" width="100%">
 
 Features a Interactive TUI-driven connection flow with cloud environment selection, auth method choice (browser, device code, service principal), and saved tenant profiles a dashboard with summary panels with device, app, user, and group counts plus compliance statistics, with live auto-refresh mode and many, many more.
 
