@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "02x04_terminal_velocity.tui"
-date:   2026-04-30 06:00:00 +0100
+date:   2026-05-01 06:00:00 +0100
 categories: episodes
 image:
     path: assets/images/02x04.jpg
