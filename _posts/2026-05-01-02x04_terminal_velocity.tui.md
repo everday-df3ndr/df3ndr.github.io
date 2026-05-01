@@ -3,7 +3,7 @@ layout: post
 title:  "02x04_terminal_velocity.tui"
 date:   2026-05-01 06:00:00 +0100
 categories: episodes
-cover: 'assets/images/cover/cover-02x04.jpg'
+cover: 'assets/images/02x04/cover.jpg'
 navigation: True
 subclass: 'post'
 logo:

@@ -3,7 +3,7 @@ layout: post
 title: "01x05_DEVICEHIGH=MVPSUMMIT.SYS"
 date: 2025-04-03 00:00:00 +0200
 categories: episodes
-cover: 'assets/images/cover/cover-01x05.jpg'
+cover: 'assets/images/01x05/cover.jpg'
 navigation: True
 subclass: 'post'
 logo:

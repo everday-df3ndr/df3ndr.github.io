@@ -3,7 +3,7 @@ layout: post
 title: "01x04_RE:authmail.eml-and-siem.kql"
 date: 2025-03-01 01:00:00 +0100
 categories: episodes
-cover: 'assets/images/cover/cover-01x04.jpg'
+cover: 'assets/images/01x04/cover.jpg'
 navigation: True
 subclass: 'post'
 logo:

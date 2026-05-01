@@ -3,7 +3,7 @@ layout: post
 title: "01x07 | summarize harden(Tenant) | take 5"
 date: 2025-06-02 16:45:00 +1000
 categories: episodes
-cover: 'assets/images/cover/cover-01x07.jpg'
+cover: 'assets/images/01x07/cover.jpg'
 navigation: True
 subclass: 'post'
 logo:
@@ -118,7 +118,7 @@ Well, with Summary Rules I think Microsoft took a nice step into the right direc
 * Sort of “Scheduled KQL queries”
 * Results are stored in separate `Analytics` table(s)
 
-<img src="/assets/images/s01e07/everyday-defender-01x07_summaryrule.jpg" alt="summary_rules" width="100%">
+<img src="/assets/images/01x07/everyday-defender-01x07_summaryrule.jpg" alt="summary_rules" width="100%">
 
 ### Example scenarios
 
@@ -126,7 +126,7 @@ Well, with Summary Rules I think Microsoft took a nice step into the right direc
 * Generate alerts on TI indicator matches
 * Trigger alerts on baseline anomalies (i.e. `TotalBytesSent`)
 
-<img src="/assets/images/s01e07/everyday-defender-01x07_anomalies.jpg" alt="anomalies" width="100%">
+<img src="/assets/images/01x07/everyday-defender-01x07_anomalies.jpg" alt="anomalies" width="100%">
 
 * Bring down retention cost by summarizing high-volume tables(i.e. `MicrosoftGraphActivityLogs`)
 
