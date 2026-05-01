@@ -3,10 +3,6 @@ layout: post
 title:  "01x00_boot_sequence.bat"
 date:   2024-12-02 10:28:00 +1100
 categories: episodes
-image:
-    path: assets/images/01x00.jpg
-    width: 1400
-    height: 1400
 cover: 'assets/images/cover/cover-01x00.jpg'
 navigation: True
 subclass: 'post'

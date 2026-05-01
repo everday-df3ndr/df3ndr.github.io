@@ -3,10 +3,6 @@ layout: post
 title: "01x03_authmail.eml-and-identity.gov"
 date: 2025-02-03 10:00:00 +1100
 categories: episodes
-image:
-    path: assets/images/01x03.jpg
-    width: 1400
-    height: 1400
 cover: 'assets/images/cover/cover-01x03.jpg'
 navigation: True
 subclass: 'post'

@@ -3,10 +3,6 @@ layout: post
 title:  "02x00_insert_disk_2.img"
 date:   2026-01-02 13:00:00 +1100
 categories: episodes
-image:
-    path: assets/images/02x00.jpg
-    width: 1500
-    height: 1500
 cover: 'assets/images/cover/cover-02x00.jpg'
 navigation: True
 subclass: 'post'

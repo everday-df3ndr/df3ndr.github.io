@@ -3,10 +3,6 @@ layout: post
 title: "01x05_DEVICEHIGH=MVPSUMMIT.SYS"
 date: 2025-04-03 00:00:00 +0200
 categories: episodes
-image:
-    path: assets/images/01x05.jpg
-    width: 1400
-    height: 1400
 cover: 'assets/images/cover/cover-01x05.jpg'
 navigation: True
 subclass: 'post'

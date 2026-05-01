@@ -3,10 +3,6 @@ layout: post
 title: "01x08 | copilot_reinstall.bat"
 date: 2025-07-01 16:45:00 +1000
 categories: episodes
-image:
-    path: assets/images/01x08.jpg
-    width: 1400
-    height: 1400
 cover: 'assets/images/cover/cover-01x08.jpg'
 navigation: True
 subclass: 'post'

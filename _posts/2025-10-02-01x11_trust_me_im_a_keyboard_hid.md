@@ -3,10 +3,6 @@ layout: post
 title: "01x11_trust_me_im_a_keyboard.hid"
 date: 2025-10-02 08:00:00 +1000
 categories: episodes
-image:
-    path: assets/images/01x11.jpg
-    width: 1400
-    height: 1400
 cover: 'assets/images/cover/cover-01x11.jpg'
 navigation: True
 subclass: 'post'
