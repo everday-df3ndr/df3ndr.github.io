@@ -3,7 +3,7 @@ layout: post
 title: "01x09 | open_port_regrets.pcap"
 date: 2025-08-01 18:00:00 +1000
 categories: episodes
-cover: 'assets/images/01x09/cover.jpg'
+cover: 'assets/images/01x09/01x09-cover.jpg'
 navigation: True
 subclass: 'post'
 logo:

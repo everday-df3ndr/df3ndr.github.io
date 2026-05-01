@@ -3,7 +3,7 @@ layout: post
 title:  "02x03-azure_fridays_but_its_us.now"
 date:   2026-04-02 21:00:00 +1100
 categories: episodes
-cover: 'assets/images/02x03/cover.jpg'
+cover: 'assets/images/02x03/02x03-cover.jpg'
 navigation: True
 subclass: 'post'
 logo:

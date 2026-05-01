@@ -3,7 +3,7 @@ layout: post
 title: "01x07 | summarize harden(Tenant) | take 5"
 date: 2025-06-02 16:45:00 +1000
 categories: episodes
-cover: 'assets/images/01x07/cover.jpg'
+cover: 'assets/images/01x07/01x07-cover.jpg'
 navigation: True
 subclass: 'post'
 logo:

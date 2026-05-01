@@ -3,7 +3,7 @@ layout: post
 title:  "02x00_insert_disk_2.img"
 date:   2026-01-02 13:00:00 +1100
 categories: episodes
-cover: 'assets/images/02x00/cover.jpg'
+cover: 'assets/images/02x00/02x00-cover.jpg'
 navigation: True
 subclass: 'post'
 logo:

@@ -3,7 +3,7 @@ layout: post
 title:  "02x01_scu_later_alligator.json"
 date:   2026-02-01 19:25:00 +1100
 categories: episodes
-cover: 'assets/images/02x01/cover.jpg'
+cover: 'assets/images/02x01/02x01-cover.jpg'
 navigation: True
 subclass: 'post'
 logo:
