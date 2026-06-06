@@ -20,6 +20,26 @@ url: "https://df3ndr.io"
 # Permalinks
 permalink: /:categories/:year/:month/:day/:title.html
 
+# Build future-dated posts.
+#
+# Jekyll's default is `future: false`, which excludes any post whose `date:`
+# is later than the runner's `Time.now` (UTC on GitHub Actions). With
+# `future: true`, every post in `_posts/` is included in every build.
+#
+# Important: this does NOT schedule a delayed publish — there is no
+# server-side cron in Jekyll. Whatever is in `_posts/` is rendered the
+# moment the build runs. The episode "release moment" is enforced by
+# RSS.com's scheduled-publish and YouTube's scheduled visibility, not by
+# the Jekyll `date:` field.
+#
+# Why this flag exists: with the default `future: false`, an episode post
+# dated `+0100`/`+0200` (Amsterdam) is in the UTC future when it gets
+# pushed in the morning, so Jekyll silently drops it from the build. The
+# page only appears once something triggers a rebuild after the timestamp
+# passes (a later push, or "Re-run all jobs"). We've hit this on multiple
+# episodes; `future: true` removes the foot-gun.
+future: true
+
 # permalink: /:title
 # permalink: /author/:username
 # permalink: /tag/:tag
