@@ -36,14 +36,17 @@ You keep two distinct records with different jobs: the audit trail (every findin
 Identity and secrets are the foundation under all of it. Wherever possible use workload identity/federation so there's no stored secret at all — the workload proves who it is. Where a real credential is unavoidable, contain it in a vault.
 
 ### Tips and traps
+
 Do: 
+
 * Bind to immutable IDs (GUIDs)
 * Vault secrets or federate and store none
 * Make every run safe to repeat
 * Fail loud and force errors
 * Think least privilege. 
 
-Don't: 
+Don't:
+
 * Key off UPNs or display names
 * Hardcode credentials in scripts or config
 * Re-alert on findings you've already reported
@@ -51,10 +54,13 @@ Don't:
 * Grant the runbook identity more than it needs.
 
 ### Building blocks
+
 An Azure Automation runbook orchestrates all five stages, executing in-process and delegating "alert" and "remember" to a service. The supporting pieces: identity (no stored secret), alert channels (Email, Teams, Phone), storage for the audit trail, a Variable for state, Key Vault for a contained credential when managed identity or federation isn't possible, and community tools and scripts like Maester and MaesterDiff.
 
 ### Use-cases
-The session we talk through six practical scenarios: 
+
+The session we talk through six practical scenarios:
+
 * Break-glass and privileged account monitoring
 * Guest and external collaboration hygiene
 * BEC mailbox monitoring
